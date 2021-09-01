@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
+#header {
+  position: absolute;
+  width: 100%;
+  background: #000;
+}
+#header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .navbar--nav-items {
+  margin-left: 40px;
+  display: flex;
+}
+#header .navbar--nav-items__item {
+  margin: 0 10px;
+  color: white;
+}
+#header .navbar--nav-items__item--shopping {
+  left: 68.6%;
+  right: 29.4%;
+  top: 25.62%;
+  bottom: 30.52%;
+  background: #FF2321;
+}
+#header .navbar--nav-items__tel {
+  color: white;
+}
+#header .navbar--nav-items--telephone {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+#hero {
+  background: url("../img/bg.png") no-repeat center/cover;
+  height: 100vh;
+  padding-top: 400px;
+}
+
+.hero__items__item {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 78px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+.hero__items__item__text {
+  color: white;
+}
+.hero__items__item__text--images {
+  margin-left: 400px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+/*# sourceMappingURL=style.css.map */
