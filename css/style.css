@@ -53,9 +53,13 @@ a, a:hover {
 #hero {
   background: url("../img/bg.png") no-repeat center/cover;
   height: 100vh;
-  padding-top: 400px;
+  padding-top: 200px;
 }
 
+.hero__items {
+  display: flex;
+  justify-content: space-between;
+}
 .hero__items__item {
   font-style: normal;
   font-weight: bold;
@@ -67,11 +71,9 @@ a, a:hover {
 .hero__items__item__text {
   color: white;
 }
-.hero__items__item__text--images {
-  margin-left: 400px;
-  align-items: center;
-  flex-direction: column;
-  justify-content: flex-end;
+.hero--images--img {
+  position: absolute;
+  margin-left: -500px;
 }
 
 /*# sourceMappingURL=style.css.map */

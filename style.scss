@@ -66,11 +66,12 @@ a, a:hover {
   #hero {
     background: url("../img/bg.png") no-repeat center/cover;
     height: 100vh;
-    padding-top: 400px;
+    padding-top: 200px;
   }
 
   .hero__items {
-
+    display: flex;
+    justify-content: space-between;
 
     &__item {
       font-style: normal;
@@ -85,20 +86,21 @@ a, a:hover {
 
 
         &--images {
-          margin-left: 400px;
-          align-items: center;
-          flex-direction: column;
-          justify-content: flex-end;
+          //margin-left: 400px;
+          //align-items: center;
+          //flex-direction: column;
+          //justify-content: flex-end;
 
-          &--img {
-            //margin-top: 400px;
-            //justify-content: center;
-            //align-items: flex-end;
-          }
+
         }
       }
     }
   }
+
+.hero--images--img {
+  position: absolute;
+  margin-left: -500px;
+}
 
 
 
